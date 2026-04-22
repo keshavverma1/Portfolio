@@ -1,11 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { RiMenu3Fill } from "react-icons/ri";
 import Skills from "./Skills";
 const Home = ({setOpenMenu,openMenu}) => {
-  const [openContactForm,setOpenContactForm]=useState(true);
-  const handleContactForm = () =>{
-    setOpenContactForm(!openContactForm)
-  }
   return (
     // 
     <>
